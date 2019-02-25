@@ -133,16 +133,6 @@
 }
 
 @font-face {
-  font-family: "JosefinSans-Light";
-  src: url('../Font/JosefinSans-Light.ttf');
-}
-
-@font-face {
-  font-family: "JosefinSans-LightItalic";
-  src: url('../Font/JosefinSans-LightItalic.ttf');
-}
-
-@font-face {
   font-family: "JosefinSans-Regular";
   src: url('../Font/JosefinSans-Regular.ttf');
 }
@@ -155,7 +145,10 @@
 body {
   padding-top: 10px;
   font-family: "JosefinSans-Regular";
-  background-image: url(Assets/Img/Global/rawpixel-532413-unsplash.jpg);
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 #jumbotron {
@@ -302,16 +295,4 @@ img {
 .list-group-item>.badge {
   float: right;
   font-size: 14px;
-}
-
-form {
-  max-width: 90%;
-}
-
-/*select {
-  max-width: 90%;
-}
-
-textarea {
-  max-width: 90%;
 }

@@ -37,6 +37,8 @@ Exigeance du client :
 - Le client souhaite qu'à l'ouverture de la page d'accueil, il y ait un pop-up qui récupère le prénom du visiteur, puis affiche un "bonjour {nom du visiteur} !" avant le texte de présentation du restaurant.    
 - Le client souhaite que dans la partie Restaurants, en plus de l'affichage des horaires et des jours d'ouverture, il y ait une mention interactive "Nous sommes le { date et heure }, le restaurant est donc { ouvert / fermé }" en fonction de l'heure et la date de consultation du site.    
 
+Un remerciement tout particulier pour son aide en javascript à [Antoine Diambu](https://www.linkedin.com/in/antoine-diambu-402776178/).
+
 Thanks and credits for pictures :   
 
 - clifford-yeo-452260-unsplash.jpg - Photo by Clifford Yeo on Unsplash   
@@ -47,7 +49,6 @@ Thanks and credits for pictures :
 - jannis-brandt-256862-unsplash.jpg - Photo by Jannis Brandt on Unsplash   
 - matt-hoffman-261853-unsplash.jpg - Photo by Matt Hoffman on Unsplash   
 - stanislav-kondratiev-671847-unsplash.jpg - Photo by Stanislav Kondratiev on Unsplash   
-- brooke-lark-325182-unsplash.jpg - Photo by Brooke Lark on Unsplash
 - rawpixel-532413-unsplash.jpg - Photo by rawpixel on Unsplash   
 - toa-heftiba-409692-unsplash.jgp - Photo by Toa Heftiba on Unsplash   
 - food-photographer-jennifer-pallian-321038-unsplash.jpg - Photo by Food Photographer | Jennifer Pallian on Unsplash   
