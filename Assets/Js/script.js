@@ -1,17 +1,22 @@
 var adresses = document.getElementsByTagName('title')[0].innerText;
 
-if (adresses == 'Melting Pot | Adresses'){
+if (adresses == 'Melting Pot | Adresses') {
 
   var frDate = new Date();
-  var display = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+  var display = {
+    weekday: 'long',
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  };
   document.getElementById('target').innerHTML = (frDate.toLocaleDateString('fr-CA', display));
 
   var datum = new Date();
   var mention = '';
 
-  if (datum.getDay()==1 || datum.getHours()>=23 && datum.getHours()<12) {
+  if (datum.getDay() == 1 || datum.getHours() >= 23 && datum.getHours() < 12) {
     mention = 'fermé';
-  }else{
+  } else {
     mention = 'ouvert';
   }
 
